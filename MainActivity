@@ -196,8 +196,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void buildRecyclerView() {
-
-
         RecyclerView recyclerView = findViewById(R.id.recyclerViewMain);
         recyclerView.setHasFixedSize(true);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
